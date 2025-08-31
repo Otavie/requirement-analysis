@@ -82,3 +82,19 @@ Non-functional Requirements define how the system should behave. They are not ab
 - **Security**: User data and payment information must be encrypted using SSL/TLS and comply with data protection regulations.
 - **Response Time**: The search functionality should return results in under 2 seconds.
 - **Data Consistency**: Data synchronization between services (like booking and hotel management) must ensure consistency across the platform.
+
+## Use Case Diagrams
+
+Use Case Diagrams are part of the Unified Modeling Language (UML) used to represent the functional requirements of a system. They show the interactions between different types of users (actors) and the various functionalities (use cases) of the system.
+
+### Benefits of Use Case Diagrams:
+- Provide a clear overview of system functionality from a user perspective.
+- Help identify and define system boundaries and user roles.
+- Aid communication between technical teams and non-technical stakeholders.
+- Serve as a foundation for writing detailed functional specifications.
+
+### Use Case Diagram: Hotel Booking System
+
+Below is a use case diagram illustrating key interactions within a hotel booking system, such as hotel listing, searching, booking, and viewing reservations. It includes both **Customer** and **Hotel Manager** as primary actors.
+
+![Use Case Diagram](alx-booking-uc.png)
