@@ -52,3 +52,33 @@ Requirement Analysis consists of several essential activities that help ensure t
 - **Requirement Validation**  
   Reviewing and confirming that the documented requirements accurately reflect stakeholder needs. This may involve formal reviews, walkthroughs, or prototyping to ensure requirements are correct and approved before development begins.
 
+
+## Types of Requirements
+
+Software requirements are generally categorized into two main types: Functional and Non-functional Requirements. Understanding the difference between these helps in building a system that not only works correctly but also performs efficiently under expected conditions.
+
+### Functional Requirements
+
+Functional Requirements define what the system should do. These are specific to the behavior or functions of the system — such as operations, workflows, and interactions between the system and its users.
+
+#### Hotel Booking Management System:
+- **User Registration and Login**: Customers and hotel managers should be able to sign up, log in, and manage their profiles.
+- **Hotel Listing Management**: Hotel managers can add, update, or remove hotel details (e.g., room availability, amenities, pricing).
+- **Search and Filter Hotels**: Customers can search for hotels using filters like location, price, ratings, and availability.
+- **Booking a Hotel Room**: Customers should be able to select rooms, confirm availability, and book a hotel.
+- **Payment Processing**: Integration with third-party payment gateways (e.g., Stripe, Razorpay) for secure payments.
+- **View Bookings**: Users can view current and past bookings, along with status updates.
+- **Notifications**: The system should send booking confirmations and promotional notifications to users.
+
+### Non-functional Requirements
+
+Non-functional Requirements define how the system should behave. They are not about specific features but about the system's overall qualities such as performance, reliability, scalability, and usability.
+
+#### Hotel Booking Management System:
+- **Performance**: The system should handle up to 10,000 concurrent users without performance degradation.
+- **Scalability**: The system must support horizontal scaling using microservices architecture to handle increased user load.
+- **Reliability**: Booking and payment transactions should be highly reliable, ensuring no booking is lost due to server errors.
+- **Availability**: The system should have an uptime of 99.9% to ensure users can access the platform at any time.
+- **Security**: User data and payment information must be encrypted using SSL/TLS and comply with data protection regulations.
+- **Response Time**: The search functionality should return results in under 2 seconds.
+- **Data Consistency**: Data synchronization between services (like booking and hotel management) must ensure consistency across the platform.
